@@ -1,0 +1,42 @@
+ONLINE LIBRARY MANAGEMENT SYSTEM – TEST CASES
+
+POSITIVE TEST CASES
+
+1. Add Book
+Input: Book ID = 1, Title = "C++ Basics", Author = "Bjarne"
+Expected Result: Book added successfully.
+
+2. Display Books
+Action: Select menu option 1
+Expected Result: All available books are displayed with correct details.
+
+3. Search Book by Title
+Input: "C++ Basics"
+Expected Result: Book details are displayed.
+
+4. Borrow Book
+Input: Book ID = 1
+Expected Result: Book borrowed successfully.
+
+5. Return Book
+Input: Book ID = 1
+Expected Result: Book returned successfully.
+
+
+NEGATIVE TEST CASES
+
+6. Borrow Already Borrowed Book
+Input: Book ID = 1 (borrow twice)
+Expected Result: System displays "Book is already borrowed."
+
+7. Search Non-Existing Book
+Input: "Java Advanced"
+Expected Result: System displays "No book with that title found."
+
+8. Borrow Non-Existing Book
+Input: Book ID = 99
+Expected Result: System displays "Book not found."
+
+9. Return Non-Existing Book
+Input: Book ID = 50
+Expected Result: System displays "Book not found."
